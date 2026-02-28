@@ -1,6 +1,6 @@
 @use './variables' as *;
 
-.review {
+.stars {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -17,16 +17,10 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 4px;
+    background-image: url(../images/star-active.svg);
     &:last-child {
       margin-right: 0;
-    }
-
-    &--active {
-      background-image: url(../images//star-active.svg);
-    }
-
-    &--inactive {
-      background-image: url(../images//star.svg);
+      background-image: url(../images/star.svg);
     }
   }
   &__info {
