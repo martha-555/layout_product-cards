@@ -41,7 +41,7 @@
   &__sell {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
 
   &__info {
@@ -66,7 +66,6 @@
     text-align: center;
     border-radius: 5px;
     background: $blue-accent;
-    border: 1px solid transparent;
     font-weight: 700;
     font-size: 14px;
     color: $white;
@@ -77,8 +76,8 @@
 
     &:hover {
       background: $white;
-      border-color: $blue-accent;
       color: $blue-accent;
+      border: 1px solid $blue-accent;
     }
   }
 }
